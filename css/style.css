@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.6rem;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem ;
+    color: #66BFBF;
+    font-weight: normal;
+    margin-top: 0;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #EAF6F6;
+}
+hr{
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+/****************  CLASSES ****************/
+.top{
+    background-color: #CFF5E7;
+    position: relative;
+    padding-top: 100px;
+    padding: 50px;
+}
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 500px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 500px;
+    bottom: 300px;
+}
+
+.middle-container{
+    margin: 50px 0;
+}
+.profile{
+    line-height: 2;
+    padding: 50px 0;
+}
+.pofile-img{
+    width: 15%;
+}
+.skills{
+    padding: 50px 0;
+}
+.skill-row{
+    position: relative;
+    margin: 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.comp-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+.clear-1{
+    clear: left;
+}
+*/
+.chillie-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me{
+    margin: 50px 0;
+    line-height: 2;
+}
+
+.contact-button{
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    background-color: #30e3cb;
+    padding: 10px 20px 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+;
+    
+}
+.contact-button:hover{
+    background-color: #2bc4ad;
+    color: #11999e;
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    height: 100px;
+    padding-top: 20px;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
